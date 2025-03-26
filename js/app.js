@@ -5,76 +5,75 @@ var app = new Framework7({
   root: '#app',
   theme: 'md',
   view: {
-    pushState: false  // CAMBIADO a false para GitHub Pages
+    pushState: false // ¡Bien para GitHub Pages!
   },
   cache: false,
   cacheDuration: 0,
-  modalTitle: 'App Framework7',
+  modalTitle: 'Diseño Web App',
   panel: {
     swipe: true,
   },
   routes: [
     {
-      path: '/home/',
+      path: '/index.html',
       url: 'index.html',
       name: 'home',
     },
     {
-      path: '/products/',
+      path: '/products.html',
       url: 'products.html',
       name: 'products',
     },
     {
-      path: '/nosotros/',
+      path: '/nosotros.html',
       url: 'nosotros.html',
       name: 'nosotros',
     },
     {
-      path: '/perfil/',
+      path: '/perfil.html',
       url: 'perfil.html',
       name: 'perfil',
     },
     {
-      path: '/contactenos/',
+      path: '/contactenos.html',
       url: 'contactenos.html',
       name: 'contactenos',
     },
     {
-      path: '/carrito/',
+      path: '/carrito.html',
       url: 'carrito.html',
       name: 'carrito',
     },
-    // Info productos
     {
-      path: '/vitalechero-info/',
+      path: '/vitalechero-info.html',
       url: 'vitalechero-info.html',
       name: 'vitalechero-info',
     },
     {
-      path: '/akstress-info/',
+      path: '/akstress-info.html',
       url: 'akstress-info.html',
       name: 'akstress-info',
     },
     {
-      path: '/aprax-info/',
+      path: '/aprax-info.html',
       url: 'aprax-info.html',
       name: 'aprax-info',
     },
     {
-      path: '/prosel-info/',
+      path: '/prosel-info.html',
       url: 'prosel-info.html',
       name: 'prosel-info',
     },
     {
-      path: '/ketodrog-info/',
+      path: '/ketodrog-info.html',
       url: 'ketodrog-info.html',
       name: 'ketodrog-info',
     },
     {
-      path: '/aliponedora-info/',
+      path: '/aliponedora-info.html',
       url: 'aliponedora-info.html',
       name: 'aliponedora-info',
-    },
+    }
   ],
   dialog: {
     title: 'Diseño Web App',
