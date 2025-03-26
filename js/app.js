@@ -7,7 +7,9 @@ var app = new Framework7({
   	root: '#app',
 	theme: 'md',
 	view: {
-        pushState: true
+  pushState: false
+},
+
     },
 	cache:false,
 	cacheDuration: 0,
